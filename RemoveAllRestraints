@@ -1,15 +1,28 @@
-num = 0
-ServerSend("ChatRoomChat", {
-        Content: "Beep",
-        Type: "Action",
-        Target: null,
-        Dictionary: [
-            { Tag: "Beep", Text: "msg" },
-            { Tag: "Biep", Text: "msg" },
-            { Tag: "Sonner", Text: "msg" },
-            { Tag: "msg", Text: 'Maria giggles and clicks her fingers.' }
-        ]
-    });
-CharacterSetActivePose(ChatRoomCharacter[num], ["BackBoxTie", "KneelingSpread"], true);
-ServerSend("ChatRoomCharacterPoseUpdate", { Pose: ChatRoomCharacter[num].ActivePose });
-ChatRoomCharacterUpdate(ChatRoomCharacter[num])
+x = 2
+InventoryRemove(ChatRoomCharacter[x], "ItemFeet")
+InventoryRemove(ChatRoomCharacter[x], "ItemLegs")
+InventoryRemove(ChatRoomCharacter[x], "ItemVulva")
+InventoryRemove(ChatRoomCharacter[x], "ItemVulvaPiercings")
+InventoryRemove(ChatRoomCharacter[x], "ItemButt")
+InventoryRemove(ChatRoomCharacter[x], "ItemPelvis")
+InventoryRemove(ChatRoomCharacter[x], "ItemTorso")
+InventoryRemove(ChatRoomCharacter[x], "ItemNipples")
+InventoryRemove(ChatRoomCharacter[x], "ItemNipplesPiercings")
+InventoryRemove(ChatRoomCharacter[x], "ItemBreast")
+InventoryRemove(ChatRoomCharacter[x], "ItemArms")
+InventoryRemove(ChatRoomCharacter[x], "ItemHands")
+InventoryRemove(ChatRoomCharacter[x], "ItemNeck")
+InventoryRemove(ChatRoomCharacter[x], "ItemNeckAccessories")
+InventoryRemove(ChatRoomCharacter[x], "ItemNeckRestraints")
+InventoryRemove(ChatRoomCharacter[x], "ItemMouth")
+InventoryRemove(ChatRoomCharacter[x], "ItemMouth2")
+InventoryRemove(ChatRoomCharacter[x], "ItemMouth3")
+InventoryRemove(ChatRoomCharacter[x], "ItemHead")
+InventoryRemove(ChatRoomCharacter[x], "ItemNose")
+InventoryRemove(ChatRoomCharacter[x], "ItemHood")
+InventoryRemove(ChatRoomCharacter[x], "ItemEars")
+InventoryRemove(ChatRoomCharacter[x], "ItemMisc")
+InventoryRemove(ChatRoomCharacter[x], "ItemDevices")
+InventoryRemove(ChatRoomCharacter[x], "ItemAddon")
+InventoryRemove(ChatRoomCharacter[x], "ItemBoots")
+ChatRoomCharacterUpdate(ChatRoomCharacter[x])
