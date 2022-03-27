@@ -1,0 +1,15 @@
+num = 0
+ServerSend("ChatRoomChat", {
+        Content: "Beep",
+        Type: "Action",
+        Target: null,
+        Dictionary: [
+            { Tag: "Beep", Text: "msg" },
+            { Tag: "Biep", Text: "msg" },
+            { Tag: "Sonner", Text: "msg" },
+            { Tag: "msg", Text: 'Maria giggles and clicks her fingers.' }
+        ]
+    });
+CharacterSetActivePose(ChatRoomCharacter[num], ["BackBoxTie", "KneelingSpread"], true);
+ServerSend("ChatRoomCharacterPoseUpdate", { Pose: ChatRoomCharacter[num].ActivePose });
+ChatRoomCharacterUpdate(ChatRoomCharacter[num])
